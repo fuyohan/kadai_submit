@@ -1,0 +1,526 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    font-size: 10px;
+}
+
+body{
+    max-width: 1280px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Headerエリア*/
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 12px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 21px;
+    max-width: 100%;
+}
+
+.li{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*TOP画像エリア*/
+
+.top-image-box{
+    background-image: url("./mainbg.png");
+    height: 500px;
+    position: relative;
+}
+
+.top-text{
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.top-text1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.top-text2{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+/*Aboutエリア*/
+
+.about{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+}
+
+.about-name{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.about-text1{
+    text-align: center;
+    font-size:16px;
+    margin-bottom: 40px;
+}
+
+.about-text2{
+    text-align: center;
+    font-size:16px;
+    margin-bottom: 40px;
+    line-height:28px;
+}
+
+.about-text3{
+    text-align: center;
+    font-size:16px;
+    margin-bottom: 40px;
+}
+
+.about-text4{
+    text-align: center;
+    font-size:16px;
+    margin-bottom: 40px;
+    line-height:28px;
+}
+
+.long-img{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.img4{
+    width: 320px;
+}
+
+
+/*Coureエリア*/
+
+.course-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+}
+
+.course-text{
+    text-align: center;
+    font-size: 16px;
+    line-height:28px;
+    margin-bottom: 60px;
+}
+
+.course-detail_01 {
+    display: flex;
+    width: 1280px;
+}
+
+.course-left_01{
+    width: 640px;
+    height: auto;
+}
+
+.course-left_01 img{
+    width: 640px;
+}
+
+.course-right_01{
+    width: 640px;
+    position: relative;
+}
+
+.box01{
+    position:absolute;
+    left:0%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    margin-left: 50px;
+}
+
+.content-title_01{
+    width: 430px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content-exp_01{
+    width: 430px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.course-detail_02 {
+    display: flex;
+}
+
+.course-left_02{
+    width: 640px;
+}
+
+.course-left_02{
+    width: 640px;
+    position: relative;
+}
+
+.box02{
+    position:absolute;
+    right:0%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    margin-right: 50px;
+}
+
+.content-title_02{
+    width: 430px;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.content-exp_02{
+    width: 430px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.course-right_02 img{
+    width: 640px;
+}
+
+.course-detail_03 {
+    display: flex;
+}
+
+.course-left_03{
+    width: 640px;
+}
+
+.course-left_03 img{
+    width: 640px;
+}
+
+.course-right_03{
+    width: 640px;
+    position: relative;
+}
+
+.box03{
+    position:absolute;
+    left:0%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    margin-left: 50px;
+}
+
+.content-title_03{
+    width: 430px;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.content-exp_03{
+    width: 430px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*Newsエリア*/
+
+.news-title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.news-titlej{
+    text-align: center;
+    font-size: 16px;
+    line-height:28px;
+    margin-bottom: 60px;
+}
+
+.news-detail{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.news-block{
+    width: 300px;
+    flex-direction:column;
+    align-items: center;
+    margin: 15px;
+}
+
+.news-block:hover {
+    border: solid 3px red;
+
+}
+
+.news-image{
+    margin-bottom: 30px;
+}
+
+.news-date{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.news-text{
+    font-size: 16px;
+    text-align: left;
+}
+
+.more_box{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.more{
+    margin:auto;
+    width:300px;
+    height: 60px;
+    background-color: #ffd61a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: .3s;
+    margin-bottom: 60px;
+}
+
+.more:hover {
+background: #011412;
+}
+
+.more_text{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+/*Accessエリア*/
+
+.access_box{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.access{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.corp-info{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.infomation{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.info {
+    width: 700px;
+    display: flex;
+    margin: auto;
+    font-size: 18px;
+}
+    
+.info th {
+    width: 170px;
+    border: 1px solid white;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.info td {
+    width: 470px;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+/*contactエリア*/
+
+.contact{
+    width: 700px;
+}
+
+.form-wrapper{
+    width: 700px;
+    margin: auto;
+}
+
+.contact-title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.con1{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.con2{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.con3{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.form-title{
+    width: 160px;
+    padding: 12px 64px 8px 16px;
+    font-weight: normal;
+    text-align: left;
+    border:solid 1px #c9c9c9;
+    font-size: 16px;
+    border-left: 1px solid white;
+}
+
+.form-title .check-radio{
+    padding: 0;
+}
+
+.form-item{
+    width: 400px;
+    padding: 8px 8px 8px 8px;
+    border:solid 1px #c9c9c9;
+    text-align: left;
+    font-size: 16px;
+    border-right: 1px solid white;
+}
+
+.form-parts{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border:solid 1px #c9c9c9;
+    font-size: 1.6rem;
+}
+
+.form-ul{
+    height: 160px;
+}
+
+.checkbox{
+    margin-bottom:24px;
+}
+
+.input[type*="checkbox"]{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-bottom:12px;
+    border:solid 1px #c9c9c9;
+    margin: 0 40px 0 0px;
+}
+
+.input[type*="checkbox"]:checked{
+    background-color: #a0a0a0;
+}
+
+.btn-submit{
+    margin:auto;
+    width:300px;
+    height: 60px;
+    color: white;
+    background-color: #ffd61a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    transition: .3s;
+    margin-bottom: 140px;
+}
+
+.btn-submit:hover {
+    background: #011412;
+    }
+
+.footer-text-center{
+    padding: 24px 0;
+    background-color: #707070;
+    text-align: center;
+}
+
+.copyrights {
+color: #fff;
+font-size: 16px;
+text-align: center;
+margin-top: 30px;
+}
